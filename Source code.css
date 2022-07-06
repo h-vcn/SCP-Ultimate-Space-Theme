@@ -1,0 +1,46 @@
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+
+[[module CSS]]
+/* ROOT VARS */
+
+:root {
+
+/* ===HEADER ELEMENTS=== */
+	/* --logo-image: url("https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg"); */
+	--logo-image: url("https://i.imgur.com/NqeOsiq.png");
+	--header-title: "SCP Astronomical Division";
+	--header-subtitle: "To the Universe, and the space within";
+	
+
+/* ===STANDARD THEME COLORS=== */
+	/* white */
+	--white-monochrome: 245, 245, 245;
+	/* v light gray for blockquotes and stuff */
+	--pale-gray-monochrome: 220, 220, 220;
+	/* very light pale gray for misc. use */z
+	--light-pale-gray-monochrome: 220, 220, 220;
+	/* very light accent gray for misc. use */
+	--very-light-gray-monochrome: 220, 220, 220;
+	/* light accent gray for login status */
+	--light-gray-monochrome: 192, 192, 192;
+	/* gray */
+	--gray-monochrome: 51, 0, 102;
+	/* dark accent gray for sidebar background */
+	--dark-gray-monochrome: 25, 0, 51;
+	/* black */
+	--black-monochrome: 19, 4, 41;
+	/* subdued theme color, for visited links */
+	--pale-accent: 127, 69, 186;
+	/* vivid theme color, the "default" accent color */
+	--bright-accent: 76, 0, 153;
+	/* theme color */
+	--medium-accent: 36, 5, 66;
+	/* darker theme color */
+	--dark-accent: 64, 7, 133;
+	/* alternate accent color, for newpage links */
+	--alt-accent: 25, 0, 51;
+}
+[[/module]]
